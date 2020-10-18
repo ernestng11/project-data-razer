@@ -1,5 +1,5 @@
-# Exploratory Analysis
+## Exploratory Analysis
 
-# Findings
+## Findings
 
-# Conclusion
+## Conclusion
