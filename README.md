@@ -91,8 +91,13 @@
   - When col2 = -1, there is no col. 6, 7
   - Distribution of col4 is similar across all unique values of col3 [0,...11]. Somewhat models a bimodal distribution
   - Distribution of col4 is very different for each unique value of col2 [-1, 0, 1]
+  - Since there are very little values for Columns 6 and 7, there was not much information that I could gather from those columns.
+  - My main analysis focused on Columns 1 to 5.
+## Conclusion
+  - Column 2 values could be an indicator of whether or not data for their respective Column 1 has been aggregated. We see a range of values for each unique Column 1 when their tagged Column 2 value is -1. 
+  - Column 3 seems to be represent some sort of ranking or grouping between the unique Column 1 values.
+  - Data that can be aggregated will be in Columns 4 and 5.
+  - Column 4 values models after a bimodal distribution (Presence of 2 peaks) which suggests that the underlying distribution could be due to 2 external factors and that there could be an addditional variable to further split the distribution of values.
   
-
-
 
 
