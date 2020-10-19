@@ -24,7 +24,7 @@
   - Column 3 seems to be an ordinal variable since it has range [0,1,...,11]
   - I evaluate Columns 4 and 5 to be numerical variables.
   
-*4. Get statistical summary for each numerical variable*
+*5. Get statistical summary for each numerical variable*
   - I only get the statistical summary for Columns 4 and 5.
   
 ![Describe plot](./describeplot.jpg)
@@ -32,7 +32,7 @@
   - Mean and standard deviation for both Columns 4 and 5 are roughly the same.
   - The distribution of values for Column 5 seem to be on the larger values in the same range, as compared to Column 4. This can be shown from the 50 and 75      percentile.
     
-*5. Derive correlation matrix between categorical and numerical variable*
+*6. Derive correlation matrix between categorical and numerical variable*
 
 ![Corr plot](./corrplot.jpg)
   
@@ -42,7 +42,7 @@
     -0.667 between Columns 4 and 5
   - I am going to start exploring the relationship between each of the pairs above.
 
-*6. Further explore data pattern behind each correlation*
+*7. Further explore data pattern behind each correlation*
 
 ![Count plot](./counts.jpg)
   
