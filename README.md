@@ -25,13 +25,14 @@
 *4. Get statistical summary for each numerical variable*
   - I only get the statistical summary for Columns 4 and 5.
   
-    ![Describe plot](/Images/decribeplot.jpg)
+![Describe plot](/Images/decribeplot.jpg)
+
   - Mean and standard deviation for both Columns 4 and 5 are roughly the same.
   - The distribution of values for Column 5 seem to be on the larger values in the same range, as compared to Column 4. This can be shown from the 50 and 75      percentile.
     
 *5. Derive correlation matrix between categorical and numerical variable*
 
-  ![Corr plot](/Images/corrplot.jpg)
+![Corr plot](./corrplot.jpg)
   
   - From this correlation matrix plot, we see a correlation value of:
     -0.547 between col2 and col4
@@ -41,7 +42,7 @@
 
 *6. Further explore data pattern behind each correlation*
 
-  ![Count plot](/Images/count.jpg)
+![Count plot](./count.jpg)
   
   - From the pivot table above, I note that there 12 unique col1 values where col1= -1, 206 for 0 and 12 for 1. Interestingly, we see that for col2 = -1, there are 12 unique col1 values for 600 rows which means that each of those 12 col1 values have been repeated in the dataset. It states otherwise for col2 = 0 and col2 = 1 where there are 218 unique col1 values for 218 col2 values
 
@@ -58,7 +59,7 @@
 
 **Column 3 vs Column 4**
 
-![bimodal plot](/images/bimodal.jpg)
+![bimodal plot](./bimodal.jpg)
 
   - Distribution of Column 4 values have similar shape (bimodal) for each unique Column 3 value. This also further explains why the correlation value between Column 3 and Column 4 is very low at 0.06
   
@@ -76,7 +77,7 @@
 
 **Column 4 vs Column 5**
 
-![scatter plot](/images/scatter.jpg)
+![scatter plot](./scatter.jpg)
 
   - Where col2 = -1, col4 and col5 values take on larger values. However for col2 = 0, range of col5 values are limited from [0,...,5] and col4 values take on a smaller range - [0,1,2]. 
   - Where col2 = 1, there are no points in the plot because col5 values are missing for this value of col2. 
@@ -91,6 +92,7 @@
   - Distribution of col4 is similar across all unique values of col3 [0,...11]. Somewhat models a bimodal distribution
   - Distribution of col4 is very different for each unique value of col2 [-1, 0, 1]
   
-## Conclusion
+
+
 
 
