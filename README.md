@@ -1,6 +1,6 @@
 ## Exploratory Analysis
 
-### Steps Taken
+### *Steps Taken and Findings*
 1. Identify data types
 
 2. Size of Dataset
@@ -14,6 +14,7 @@
 6. Further explore data pattern behind each correlation
 
 
-## Findings
+
+
 
 ## Conclusion
