@@ -42,7 +42,7 @@
 
 *6. Further explore data pattern behind each correlation*
 
-![Count plot](./count.jpg)
+![Count plot](./counts.jpg)
   
   - From the pivot table above, I note that there 12 unique col1 values where col1= -1, 206 for 0 and 12 for 1. Interestingly, we see that for col2 = -1, there are 12 unique col1 values for 600 rows which means that each of those 12 col1 values have been repeated in the dataset. It states otherwise for col2 = 0 and col2 = 1 where there are 218 unique col1 values for 218 col2 values
 
