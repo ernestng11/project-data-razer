@@ -1,5 +1,7 @@
 ## Exploratory Analysis
 
+*Detailed workflow can be found in the Jupyter Notebook in this repo*
+
 ### **Steps Taken and Findings**
 *1. Identify data types*
   - Columns 1, 4, 5, 6 and 7 are floats while Columns 2 and 3 and integers
@@ -100,4 +102,3 @@
   - Column 4 values models after a bimodal distribution (Presence of 2 peaks) which suggests that the underlying distribution could be due to 2 external factors and that there could be an addditional variable to further split the distribution of values.
   
 
-*Detailed workflow can be found in the Jupyter Notebook in this repo*
