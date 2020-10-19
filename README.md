@@ -25,7 +25,7 @@
 *4. Get statistical summary for each numerical variable*
   - I only get the statistical summary for Columns 4 and 5.
   
-![Describe plot](/Images/decribeplot.jpg)
+![Describe plot](./describeplot.jpg)
 
   - Mean and standard deviation for both Columns 4 and 5 are roughly the same.
   - The distribution of values for Column 5 seem to be on the larger values in the same range, as compared to Column 4. This can be shown from the 50 and 75      percentile.
